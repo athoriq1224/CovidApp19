@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    //ini textview
     <TextView
         android:id="@+id/txt_title"
         android:layout_width="wrap_content"
@@ -18,6 +19,7 @@
         android:textSize="20sp"
         android:textStyle="bold"/>
 
+    //ini linearlayout
     <LinearLayout
         android:id="@+id/lay_search"
         android:layout_width="match_parent"
@@ -40,6 +42,7 @@
             app:queryBackground="@null"
             app:queryHint="Cari Negara" />
 
+        //ini Button
         <Button
             android:id="@+id/sequence"
             android:layout_width="match_parent"
@@ -52,6 +55,7 @@
             android:background="@drawable/ic_sequence" />
     </LinearLayout>
 
+    //ini linearlayout
     <LinearLayout
         android:id="@+id/lay_globe"
         android:layout_width="match_parent"
@@ -71,6 +75,7 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            //ini textview
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -78,7 +83,8 @@
                 android:text="Confirmed"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
-
+            
+            //ini textview
             <TextView
                 android:id="@+id/txt_confirmed_globe"
                 android:layout_width="match_parent"
@@ -99,6 +105,7 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            //ini textView
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -107,6 +114,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
 
+            //ini textView
             <TextView
                 android:id="@+id/txt_recovered_globe"
                 android:layout_width="match_parent"
@@ -118,6 +126,7 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+        //ini linearLayout
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
